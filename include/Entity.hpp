@@ -1,6 +1,9 @@
 #pragma once
 
+#include <vector>
+
 #include "Point2D.hpp"
+
 
 namespace actor
 {
@@ -11,11 +14,12 @@ namespace actor
         Entity(const Entity &) = default;
         Entity &operator=(const Entity &) = default;
 
-        Entity(): _position(util::Point2D()) {};
+        Entity()
+            : _position(util::Point2D())
+        {};
         explicit Entity(const util::Point2D &position)
             : _position(position)
         {};
-
         virtual void move(const util::Point2D &modifier) = 0;
 
     private:

@@ -600,6 +600,14 @@ D:/Software Engeniering/boring_runner/include/Point2D.hpp
 cmath
 -
 
+D:/Software Engeniering/boring_runner/include/SpriteSheet.hpp
+vector
+-
+algorithm
+-
+utilities.hpp
+D:/Software Engeniering/boring_runner/include/utilities.hpp
+
 D:/Software Engeniering/boring_runner/include/utilities.hpp
 iostream
 -
@@ -617,8 +625,18 @@ include/utilities.hpp
 D:/Software Engeniering/boring_runner/include/utilities.hpp
 include/Point2D.hpp
 D:/Software Engeniering/boring_runner/include/Point2D.hpp
+include/SpriteSheet.hpp
+D:/Software Engeniering/boring_runner/include/SpriteSheet.hpp
 
 D:/Software Engeniering/boring_runner/src/Point2D.cpp
 ../include/Point2D.hpp
 D:/Software Engeniering/boring_runner/include/Point2D.hpp
+
+D:/Software Engeniering/boring_runner/src/SpriteSheet.cpp
+../include/SpriteSheet.hpp
+D:/Software Engeniering/boring_runner/include/SpriteSheet.hpp
+
+D:/Software Engeniering/boring_runner/src/utilities.cpp
+../include/utilities.hpp
+D:/Software Engeniering/boring_runner/include/utilities.hpp
 

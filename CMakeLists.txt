@@ -9,7 +9,7 @@ set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++")
 include_directories(include)
 link_directories(lib)
 
-set(SOURCE_FILES main.cpp include/utilities.hpp include/Entity.hpp include/Point2D.hpp src/Point2D.cpp)
+set(SOURCE_FILES main.cpp include/utilities.hpp include/Entity.hpp include/Point2D.hpp src/Point2D.cpp include/SpriteSheet.hpp src/SpriteSheet.cpp src/utilities.cpp)
 
 add_executable(boring_runner ${SOURCE_FILES})
 

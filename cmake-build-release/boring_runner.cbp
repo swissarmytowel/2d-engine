@@ -88,6 +88,9 @@
 		<Unit filename="D:/Software Engeniering/boring_runner/include/Point2D.hpp">
 			<Option target="boring_runner"/>
 		</Unit>
+		<Unit filename="D:/Software Engeniering/boring_runner/include/SpriteSheet.hpp">
+			<Option target="boring_runner"/>
+		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/include/utilities.hpp">
 			<Option target="boring_runner"/>
 		</Unit>
@@ -95,6 +98,12 @@
 			<Option target="boring_runner"/>
 		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/src/Point2D.cpp">
+			<Option target="boring_runner"/>
+		</Unit>
+		<Unit filename="D:/Software Engeniering/boring_runner/src/SpriteSheet.cpp">
+			<Option target="boring_runner"/>
+		</Unit>
+		<Unit filename="D:/Software Engeniering/boring_runner/src/utilities.cpp">
 			<Option target="boring_runner"/>
 		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/CMakeLists.txt">

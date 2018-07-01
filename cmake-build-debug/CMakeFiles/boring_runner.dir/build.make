@@ -106,21 +106,75 @@ CMakeFiles/boring_runner.dir/src/Point2D.cpp.obj.provides: CMakeFiles/boring_run
 CMakeFiles/boring_runner.dir/src/Point2D.cpp.obj.provides.build: CMakeFiles/boring_runner.dir/src/Point2D.cpp.obj
 
 
+CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.obj: CMakeFiles/boring_runner.dir/flags.make
+CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.obj: CMakeFiles/boring_runner.dir/includes_CXX.rsp
+CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.obj: ../src/SpriteSheet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Software Engeniering\boring_runner\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-W\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\boring_runner.dir\src\SpriteSheet.cpp.obj -c "D:\Software Engeniering\boring_runner\src\SpriteSheet.cpp"
+
+CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-W\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Software Engeniering\boring_runner\src\SpriteSheet.cpp" > CMakeFiles\boring_runner.dir\src\SpriteSheet.cpp.i
+
+CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-W\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Software Engeniering\boring_runner\src\SpriteSheet.cpp" -o CMakeFiles\boring_runner.dir\src\SpriteSheet.cpp.s
+
+CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.obj.requires:
+
+.PHONY : CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.obj.requires
+
+CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.obj.provides: CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.obj.provides.build
+.PHONY : CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.obj.provides
+
+CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.obj.provides.build: CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.obj
+
+
+CMakeFiles/boring_runner.dir/src/utilities.cpp.obj: CMakeFiles/boring_runner.dir/flags.make
+CMakeFiles/boring_runner.dir/src/utilities.cpp.obj: CMakeFiles/boring_runner.dir/includes_CXX.rsp
+CMakeFiles/boring_runner.dir/src/utilities.cpp.obj: ../src/utilities.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Software Engeniering\boring_runner\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/boring_runner.dir/src/utilities.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-W\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\boring_runner.dir\src\utilities.cpp.obj -c "D:\Software Engeniering\boring_runner\src\utilities.cpp"
+
+CMakeFiles/boring_runner.dir/src/utilities.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/boring_runner.dir/src/utilities.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-W\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Software Engeniering\boring_runner\src\utilities.cpp" > CMakeFiles\boring_runner.dir\src\utilities.cpp.i
+
+CMakeFiles/boring_runner.dir/src/utilities.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boring_runner.dir/src/utilities.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-W\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Software Engeniering\boring_runner\src\utilities.cpp" -o CMakeFiles\boring_runner.dir\src\utilities.cpp.s
+
+CMakeFiles/boring_runner.dir/src/utilities.cpp.obj.requires:
+
+.PHONY : CMakeFiles/boring_runner.dir/src/utilities.cpp.obj.requires
+
+CMakeFiles/boring_runner.dir/src/utilities.cpp.obj.provides: CMakeFiles/boring_runner.dir/src/utilities.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/utilities.cpp.obj.provides.build
+.PHONY : CMakeFiles/boring_runner.dir/src/utilities.cpp.obj.provides
+
+CMakeFiles/boring_runner.dir/src/utilities.cpp.obj.provides.build: CMakeFiles/boring_runner.dir/src/utilities.cpp.obj
+
+
 # Object files for target boring_runner
 boring_runner_OBJECTS = \
 "CMakeFiles/boring_runner.dir/main.cpp.obj" \
-"CMakeFiles/boring_runner.dir/src/Point2D.cpp.obj"
+"CMakeFiles/boring_runner.dir/src/Point2D.cpp.obj" \
+"CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.obj" \
+"CMakeFiles/boring_runner.dir/src/utilities.cpp.obj"
 
 # External object files for target boring_runner
 boring_runner_EXTERNAL_OBJECTS =
 
 boring_runner.exe: CMakeFiles/boring_runner.dir/main.cpp.obj
 boring_runner.exe: CMakeFiles/boring_runner.dir/src/Point2D.cpp.obj
+boring_runner.exe: CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.obj
+boring_runner.exe: CMakeFiles/boring_runner.dir/src/utilities.cpp.obj
 boring_runner.exe: CMakeFiles/boring_runner.dir/build.make
 boring_runner.exe: CMakeFiles/boring_runner.dir/linklibs.rsp
 boring_runner.exe: CMakeFiles/boring_runner.dir/objects1.rsp
 boring_runner.exe: CMakeFiles/boring_runner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Software Engeniering\boring_runner\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable boring_runner.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Software Engeniering\boring_runner\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable boring_runner.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\boring_runner.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -130,6 +184,8 @@ CMakeFiles/boring_runner.dir/build: boring_runner.exe
 
 CMakeFiles/boring_runner.dir/requires: CMakeFiles/boring_runner.dir/main.cpp.obj.requires
 CMakeFiles/boring_runner.dir/requires: CMakeFiles/boring_runner.dir/src/Point2D.cpp.obj.requires
+CMakeFiles/boring_runner.dir/requires: CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.obj.requires
+CMakeFiles/boring_runner.dir/requires: CMakeFiles/boring_runner.dir/src/utilities.cpp.obj.requires
 
 .PHONY : CMakeFiles/boring_runner.dir/requires
 

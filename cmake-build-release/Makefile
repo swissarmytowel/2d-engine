@@ -176,6 +176,60 @@ src/Point2D.cpp.s:
 	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/Point2D.cpp.s
 .PHONY : src/Point2D.cpp.s
 
+src/SpriteSheet.obj: src/SpriteSheet.cpp.obj
+
+.PHONY : src/SpriteSheet.obj
+
+# target to build an object file
+src/SpriteSheet.cpp.obj:
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.obj
+.PHONY : src/SpriteSheet.cpp.obj
+
+src/SpriteSheet.i: src/SpriteSheet.cpp.i
+
+.PHONY : src/SpriteSheet.i
+
+# target to preprocess a source file
+src/SpriteSheet.cpp.i:
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.i
+.PHONY : src/SpriteSheet.cpp.i
+
+src/SpriteSheet.s: src/SpriteSheet.cpp.s
+
+.PHONY : src/SpriteSheet.s
+
+# target to generate assembly for a file
+src/SpriteSheet.cpp.s:
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.s
+.PHONY : src/SpriteSheet.cpp.s
+
+src/utilities.obj: src/utilities.cpp.obj
+
+.PHONY : src/utilities.obj
+
+# target to build an object file
+src/utilities.cpp.obj:
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/utilities.cpp.obj
+.PHONY : src/utilities.cpp.obj
+
+src/utilities.i: src/utilities.cpp.i
+
+.PHONY : src/utilities.i
+
+# target to preprocess a source file
+src/utilities.cpp.i:
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/utilities.cpp.i
+.PHONY : src/utilities.cpp.i
+
+src/utilities.s: src/utilities.cpp.s
+
+.PHONY : src/utilities.s
+
+# target to generate assembly for a file
+src/utilities.cpp.s:
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/utilities.cpp.s
+.PHONY : src/utilities.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +245,12 @@ help:
 	@echo ... src/Point2D.obj
 	@echo ... src/Point2D.i
 	@echo ... src/Point2D.s
+	@echo ... src/SpriteSheet.obj
+	@echo ... src/SpriteSheet.i
+	@echo ... src/SpriteSheet.s
+	@echo ... src/utilities.obj
+	@echo ... src/utilities.i
+	@echo ... src/utilities.s
 .PHONY : help
 
 

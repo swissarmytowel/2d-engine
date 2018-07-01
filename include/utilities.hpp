@@ -30,7 +30,7 @@ namespace util
 
     // Shared ptr with deleter class
     template<class T, class D = std::default_delete<T>>
-    class SharedPtr: std::shared_ptr<T>
+    class SharedPtr: public std::shared_ptr<T>
     {
     public:
         explicit SharedPtr(T *pointer = nullptr)
@@ -54,30 +54,9 @@ namespace util
     using sRenderer = SharedPtr<SDL_Renderer, SdlDeleter>;
 
     // Initializer and deinitializer functions for SDL
-    int initializeSdlSystems(Uint32 sdlFlags, Uint32 imageFlags)
-    {
-        auto sdlErrorCode = SDL_Init(sdlFlags);
-        if (sdlErrorCode < 0)
-        {
-            std::cerr << "SDL cannot be initialized! Exiting with error: " << SDL_GetError();
-            return -1;
-        }
-        auto imgErrorCode = IMG_Init(imageFlags);
-        if (imgErrorCode < 0)
-        {
-            std::cerr << "SDL_Image cannot be initialized! Exiting with error: " << IMG_GetError();
-            return -1;
-        }
-    };
+    int initializeSdlSystems(Uint32 sdlFlags, Uint32 imageFlags);;
 
-    void quitSdlSystems()
-    {
-        IMG_Quit();
-        SDL_Quit;
-    }
+    void quitSdlSystems();
 
-    uTexture loadTexture(uRenderer &r, const std::string &path)
-    {
-        return uTexture(IMG_LoadTexture(r.get(), path.c_str()));
-    }
+    sTexture loadTexture(uRenderer &r, const std::string &path);
 }
