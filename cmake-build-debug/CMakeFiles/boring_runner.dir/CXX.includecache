@@ -596,6 +596,38 @@ close_code.h
 
 ../include/SDL2/close_code.h
 
+D:/Software Engeniering/boring_runner/include/AssetsManager.hpp
+map
+-
+string
+-
+utilities.hpp
+D:/Software Engeniering/boring_runner/include/utilities.hpp
+SpriteSheet.hpp
+D:/Software Engeniering/boring_runner/include/SpriteSheet.hpp
+
+D:/Software Engeniering/boring_runner/include/Entity.hpp
+vector
+-
+utilities.hpp
+D:/Software Engeniering/boring_runner/include/utilities.hpp
+Point2D.hpp
+D:/Software Engeniering/boring_runner/include/Point2D.hpp
+SpriteSheet.hpp
+D:/Software Engeniering/boring_runner/include/SpriteSheet.hpp
+
+D:/Software Engeniering/boring_runner/include/GameState.hpp
+vector
+-
+memory
+-
+string
+-
+utilities.hpp
+D:/Software Engeniering/boring_runner/include/utilities.hpp
+Entity.hpp
+D:/Software Engeniering/boring_runner/include/Entity.hpp
+
 D:/Software Engeniering/boring_runner/include/Point2D.hpp
 cmath
 -
@@ -627,6 +659,16 @@ include/Point2D.hpp
 D:/Software Engeniering/boring_runner/include/Point2D.hpp
 include/SpriteSheet.hpp
 D:/Software Engeniering/boring_runner/include/SpriteSheet.hpp
+include/AssetsManager.hpp
+D:/Software Engeniering/boring_runner/include/AssetsManager.hpp
+
+D:/Software Engeniering/boring_runner/src/AssetsManager.cpp
+../include/AssetsManager.hpp
+D:/Software Engeniering/boring_runner/include/AssetsManager.hpp
+
+D:/Software Engeniering/boring_runner/src/GameState.cpp
+../include/GameState.hpp
+D:/Software Engeniering/boring_runner/include/GameState.hpp
 
 D:/Software Engeniering/boring_runner/src/Point2D.cpp
 ../include/Point2D.hpp

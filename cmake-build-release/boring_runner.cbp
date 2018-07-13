@@ -82,7 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Software Engeniering/boring_runner/include/AssetsManager.hpp">
+			<Option target="boring_runner"/>
+		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/include/Entity.hpp">
+			<Option target="boring_runner"/>
+		</Unit>
+		<Unit filename="D:/Software Engeniering/boring_runner/include/GameState.hpp">
 			<Option target="boring_runner"/>
 		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/include/Point2D.hpp">
@@ -95,6 +101,12 @@
 			<Option target="boring_runner"/>
 		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/main.cpp">
+			<Option target="boring_runner"/>
+		</Unit>
+		<Unit filename="D:/Software Engeniering/boring_runner/src/AssetsManager.cpp">
+			<Option target="boring_runner"/>
+		</Unit>
+		<Unit filename="D:/Software Engeniering/boring_runner/src/GameState.cpp">
 			<Option target="boring_runner"/>
 		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/src/Point2D.cpp">

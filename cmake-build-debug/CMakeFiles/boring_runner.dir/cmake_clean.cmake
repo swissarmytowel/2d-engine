@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/boring_runner.dir/src/Point2D.cpp.obj"
   "CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.obj"
   "CMakeFiles/boring_runner.dir/src/utilities.cpp.obj"
+  "CMakeFiles/boring_runner.dir/src/GameState.cpp.obj"
+  "CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.obj"
   "boring_runner.pdb"
   "boring_runner.exe"
   "boring_runner.exe.manifest"

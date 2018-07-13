@@ -156,12 +156,64 @@ CMakeFiles/boring_runner.dir/src/utilities.cpp.obj.provides: CMakeFiles/boring_r
 CMakeFiles/boring_runner.dir/src/utilities.cpp.obj.provides.build: CMakeFiles/boring_runner.dir/src/utilities.cpp.obj
 
 
+CMakeFiles/boring_runner.dir/src/GameState.cpp.obj: CMakeFiles/boring_runner.dir/flags.make
+CMakeFiles/boring_runner.dir/src/GameState.cpp.obj: CMakeFiles/boring_runner.dir/includes_CXX.rsp
+CMakeFiles/boring_runner.dir/src/GameState.cpp.obj: ../src/GameState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Software Engeniering\boring_runner\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/boring_runner.dir/src/GameState.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-W\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\boring_runner.dir\src\GameState.cpp.obj -c "D:\Software Engeniering\boring_runner\src\GameState.cpp"
+
+CMakeFiles/boring_runner.dir/src/GameState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/boring_runner.dir/src/GameState.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-W\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Software Engeniering\boring_runner\src\GameState.cpp" > CMakeFiles\boring_runner.dir\src\GameState.cpp.i
+
+CMakeFiles/boring_runner.dir/src/GameState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boring_runner.dir/src/GameState.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-W\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Software Engeniering\boring_runner\src\GameState.cpp" -o CMakeFiles\boring_runner.dir\src\GameState.cpp.s
+
+CMakeFiles/boring_runner.dir/src/GameState.cpp.obj.requires:
+
+.PHONY : CMakeFiles/boring_runner.dir/src/GameState.cpp.obj.requires
+
+CMakeFiles/boring_runner.dir/src/GameState.cpp.obj.provides: CMakeFiles/boring_runner.dir/src/GameState.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/GameState.cpp.obj.provides.build
+.PHONY : CMakeFiles/boring_runner.dir/src/GameState.cpp.obj.provides
+
+CMakeFiles/boring_runner.dir/src/GameState.cpp.obj.provides.build: CMakeFiles/boring_runner.dir/src/GameState.cpp.obj
+
+
+CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.obj: CMakeFiles/boring_runner.dir/flags.make
+CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.obj: CMakeFiles/boring_runner.dir/includes_CXX.rsp
+CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.obj: ../src/AssetsManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\Software Engeniering\boring_runner\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-W\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\boring_runner.dir\src\AssetsManager.cpp.obj -c "D:\Software Engeniering\boring_runner\src\AssetsManager.cpp"
+
+CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-W\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Software Engeniering\boring_runner\src\AssetsManager.cpp" > CMakeFiles\boring_runner.dir\src\AssetsManager.cpp.i
+
+CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-W\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Software Engeniering\boring_runner\src\AssetsManager.cpp" -o CMakeFiles\boring_runner.dir\src\AssetsManager.cpp.s
+
+CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.obj.requires:
+
+.PHONY : CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.obj.requires
+
+CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.obj.provides: CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.obj.provides.build
+.PHONY : CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.obj.provides
+
+CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.obj.provides.build: CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.obj
+
+
 # Object files for target boring_runner
 boring_runner_OBJECTS = \
 "CMakeFiles/boring_runner.dir/main.cpp.obj" \
 "CMakeFiles/boring_runner.dir/src/Point2D.cpp.obj" \
 "CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.obj" \
-"CMakeFiles/boring_runner.dir/src/utilities.cpp.obj"
+"CMakeFiles/boring_runner.dir/src/utilities.cpp.obj" \
+"CMakeFiles/boring_runner.dir/src/GameState.cpp.obj" \
+"CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.obj"
 
 # External object files for target boring_runner
 boring_runner_EXTERNAL_OBJECTS =
@@ -170,11 +222,13 @@ boring_runner.exe: CMakeFiles/boring_runner.dir/main.cpp.obj
 boring_runner.exe: CMakeFiles/boring_runner.dir/src/Point2D.cpp.obj
 boring_runner.exe: CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.obj
 boring_runner.exe: CMakeFiles/boring_runner.dir/src/utilities.cpp.obj
+boring_runner.exe: CMakeFiles/boring_runner.dir/src/GameState.cpp.obj
+boring_runner.exe: CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.obj
 boring_runner.exe: CMakeFiles/boring_runner.dir/build.make
 boring_runner.exe: CMakeFiles/boring_runner.dir/linklibs.rsp
 boring_runner.exe: CMakeFiles/boring_runner.dir/objects1.rsp
 boring_runner.exe: CMakeFiles/boring_runner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Software Engeniering\boring_runner\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable boring_runner.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\Software Engeniering\boring_runner\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable boring_runner.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\boring_runner.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -186,6 +240,8 @@ CMakeFiles/boring_runner.dir/requires: CMakeFiles/boring_runner.dir/main.cpp.obj
 CMakeFiles/boring_runner.dir/requires: CMakeFiles/boring_runner.dir/src/Point2D.cpp.obj.requires
 CMakeFiles/boring_runner.dir/requires: CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.obj.requires
 CMakeFiles/boring_runner.dir/requires: CMakeFiles/boring_runner.dir/src/utilities.cpp.obj.requires
+CMakeFiles/boring_runner.dir/requires: CMakeFiles/boring_runner.dir/src/GameState.cpp.obj.requires
+CMakeFiles/boring_runner.dir/requires: CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.obj.requires
 
 .PHONY : CMakeFiles/boring_runner.dir/requires
 

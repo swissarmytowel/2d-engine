@@ -58,5 +58,5 @@ namespace util
 
     void quitSdlSystems();
 
-    sTexture loadTexture(uRenderer &r, const std::string &path);
+    uTexture loadTexture(uRenderer &r, const std::string &path);
 }

@@ -22,7 +22,9 @@ void ::util::quitSdlSystems()
     SDL_Quit;
 }
 
-util::sTexture util::loadTexture(util::uRenderer &r, const std::string &path)
+util::uTexture util::loadTexture(util::uRenderer &r, const std::string &path)
 {
-    return sTexture(IMG_LoadTexture(r.get(), path.c_str()));
+    uTexture tmp(IMG_LoadTexture(r.get(), path.c_str()));
+    if (tmp == nullptr) std::cerr << "Cannot load texture " << path << std::endl;
+    return tmp;
 }

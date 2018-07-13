@@ -149,6 +149,60 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/AssetsManager.obj: src/AssetsManager.cpp.obj
+
+.PHONY : src/AssetsManager.obj
+
+# target to build an object file
+src/AssetsManager.cpp.obj:
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.obj
+.PHONY : src/AssetsManager.cpp.obj
+
+src/AssetsManager.i: src/AssetsManager.cpp.i
+
+.PHONY : src/AssetsManager.i
+
+# target to preprocess a source file
+src/AssetsManager.cpp.i:
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.i
+.PHONY : src/AssetsManager.cpp.i
+
+src/AssetsManager.s: src/AssetsManager.cpp.s
+
+.PHONY : src/AssetsManager.s
+
+# target to generate assembly for a file
+src/AssetsManager.cpp.s:
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.s
+.PHONY : src/AssetsManager.cpp.s
+
+src/GameState.obj: src/GameState.cpp.obj
+
+.PHONY : src/GameState.obj
+
+# target to build an object file
+src/GameState.cpp.obj:
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/GameState.cpp.obj
+.PHONY : src/GameState.cpp.obj
+
+src/GameState.i: src/GameState.cpp.i
+
+.PHONY : src/GameState.i
+
+# target to preprocess a source file
+src/GameState.cpp.i:
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/GameState.cpp.i
+.PHONY : src/GameState.cpp.i
+
+src/GameState.s: src/GameState.cpp.s
+
+.PHONY : src/GameState.s
+
+# target to generate assembly for a file
+src/GameState.cpp.s:
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/GameState.cpp.s
+.PHONY : src/GameState.cpp.s
+
 src/Point2D.obj: src/Point2D.cpp.obj
 
 .PHONY : src/Point2D.obj
@@ -242,6 +296,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... src/AssetsManager.obj
+	@echo ... src/AssetsManager.i
+	@echo ... src/AssetsManager.s
+	@echo ... src/GameState.obj
+	@echo ... src/GameState.i
+	@echo ... src/GameState.s
 	@echo ... src/Point2D.obj
 	@echo ... src/Point2D.i
 	@echo ... src/Point2D.s
