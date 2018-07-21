@@ -91,6 +91,9 @@
 		<Unit filename="D:/Software Engeniering/boring_runner/include/Game.hpp">
 			<Option target="boring_runner"/>
 		</Unit>
+		<Unit filename="D:/Software Engeniering/boring_runner/include/IRenderable.hpp">
+			<Option target="boring_runner"/>
+		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/include/Point2D.hpp">
 			<Option target="boring_runner"/>
 		</Unit>
@@ -98,6 +101,9 @@
 			<Option target="boring_runner"/>
 		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/include/Timer.hpp">
+			<Option target="boring_runner"/>
+		</Unit>
+		<Unit filename="D:/Software Engeniering/boring_runner/include/World.hpp">
 			<Option target="boring_runner"/>
 		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/include/utilities.hpp">
@@ -119,6 +125,9 @@
 			<Option target="boring_runner"/>
 		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/src/Timer.cpp">
+			<Option target="boring_runner"/>
+		</Unit>
+		<Unit filename="D:/Software Engeniering/boring_runner/src/World.cpp">
 			<Option target="boring_runner"/>
 		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/src/utilities.cpp">

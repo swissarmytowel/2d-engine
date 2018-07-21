@@ -18,9 +18,9 @@ namespace graphics
         AssetsManager(const std::map<std::string, std::pair<std::size_t, std::size_t>> &filenamesAndTileSizes,
                       util::uRenderer &renderer);
 
-        const graphics::SpriteSheet &getAsset(const std::string &name);
+        const std::shared_ptr<graphics::SpriteSheet> getAsset(const std::string &name);
 
     private:
-        std::map<std::string, graphics::SpriteSheet> _spriteSheets;
+        std::map<std::string, std::shared_ptr<graphics::SpriteSheet>> _spriteSheets;
     };
 }

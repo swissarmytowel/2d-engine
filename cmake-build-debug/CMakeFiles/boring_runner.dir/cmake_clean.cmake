@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/boring_runner.dir/src/Game.cpp.obj"
   "CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.obj"
   "CMakeFiles/boring_runner.dir/src/Timer.cpp.obj"
+  "CMakeFiles/boring_runner.dir/src/World.cpp.obj"
   "boring_runner.pdb"
   "boring_runner.exe"
   "boring_runner.exe.manifest"

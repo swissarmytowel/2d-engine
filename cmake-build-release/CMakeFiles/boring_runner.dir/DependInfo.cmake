@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Software Engeniering/boring_runner/src/Point2D.cpp" "D:/Software Engeniering/boring_runner/cmake-build-release/CMakeFiles/boring_runner.dir/src/Point2D.cpp.obj"
   "D:/Software Engeniering/boring_runner/src/SpriteSheet.cpp" "D:/Software Engeniering/boring_runner/cmake-build-release/CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.obj"
   "D:/Software Engeniering/boring_runner/src/Timer.cpp" "D:/Software Engeniering/boring_runner/cmake-build-release/CMakeFiles/boring_runner.dir/src/Timer.cpp.obj"
+  "D:/Software Engeniering/boring_runner/src/World.cpp" "D:/Software Engeniering/boring_runner/cmake-build-release/CMakeFiles/boring_runner.dir/src/World.cpp.obj"
   "D:/Software Engeniering/boring_runner/src/utilities.cpp" "D:/Software Engeniering/boring_runner/cmake-build-release/CMakeFiles/boring_runner.dir/src/utilities.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
