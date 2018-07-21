@@ -1,2 +1,4 @@
 include/SDL2/* linguist-vendored
 CmakeLists.txt linguist-vendored
+cmake-build-debug/* linguist-vendored
+cmake-build-release/* linguist-vendored
