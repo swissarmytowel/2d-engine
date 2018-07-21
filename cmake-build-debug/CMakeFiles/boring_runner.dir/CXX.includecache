@@ -23,8 +23,8 @@ utilities.hpp
 ../include/utilities.hpp
 Point2D.hpp
 ../include/Point2D.hpp
-SpriteSheet.hpp
-../include/SpriteSheet.hpp
+Renderable.hpp
+../include/Renderable.hpp
 
 ../include/Game.hpp
 vector
@@ -45,6 +45,12 @@ Entity.hpp
 ../include/Point2D.hpp
 cmath
 -
+
+../include/Renderable.hpp
+utilities.hpp
+../include/utilities.hpp
+SpriteSheet.hpp
+../include/SpriteSheet.hpp
 
 ../include/SDL2/SDL.h
 SDL_main.h
@@ -655,8 +661,8 @@ vector
 -
 utilities.hpp
 ../include/utilities.hpp
-AssetsManager.hpp
-../include/AssetsManager.hpp
+Renderable.hpp
+../include/Renderable.hpp
 Timer.hpp
 ../include/Timer.hpp
 
@@ -684,6 +690,12 @@ D:/Software Engeniering/boring_runner/include/Point2D.hpp
 cmath
 -
 
+D:/Software Engeniering/boring_runner/include/Renderable.hpp
+utilities.hpp
+D:/Software Engeniering/boring_runner/include/utilities.hpp
+SpriteSheet.hpp
+D:/Software Engeniering/boring_runner/include/SpriteSheet.hpp
+
 D:/Software Engeniering/boring_runner/include/SpriteSheet.hpp
 vector
 -
@@ -694,6 +706,24 @@ D:/Software Engeniering/boring_runner/include/utilities.hpp
 
 D:/Software Engeniering/boring_runner/include/Timer.hpp
 chrono
+-
+utilities.hpp
+D:/Software Engeniering/boring_runner/include/utilities.hpp
+
+D:/Software Engeniering/boring_runner/include/World.hpp
+vector
+-
+utilities.hpp
+D:/Software Engeniering/boring_runner/include/utilities.hpp
+Renderable.hpp
+D:/Software Engeniering/boring_runner/include/Renderable.hpp
+Timer.hpp
+D:/Software Engeniering/boring_runner/include/Timer.hpp
+
+D:/Software Engeniering/boring_runner/include/WorldLayer.hpp
+vector
+-
+random
 -
 utilities.hpp
 D:/Software Engeniering/boring_runner/include/utilities.hpp
@@ -721,6 +751,10 @@ include/AssetsManager.hpp
 D:/Software Engeniering/boring_runner/include/AssetsManager.hpp
 include/Timer.hpp
 D:/Software Engeniering/boring_runner/include/Timer.hpp
+include/World.hpp
+D:/Software Engeniering/boring_runner/include/World.hpp
+include/WorldLayer.hpp
+D:/Software Engeniering/boring_runner/include/WorldLayer.hpp
 
 D:/Software Engeniering/boring_runner/src/AssetsManager.cpp
 ../include/AssetsManager.hpp

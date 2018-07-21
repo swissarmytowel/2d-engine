@@ -4,7 +4,7 @@
 
 #include "utilities.hpp"
 #include "Point2D.hpp"
-#include "SpriteSheet.hpp"
+#include "Renderable.hpp"
 
 namespace actor
 {
@@ -23,10 +23,9 @@ namespace actor
         LEFT = 3
     };
 
-    class Entity
+    class Entity: public graphics::Renderable
     {
     public:
-        ~Entity() = default;
         Entity(const Entity &) = default;
         Entity &operator=(const Entity &) = default;
 
@@ -34,8 +33,8 @@ namespace actor
             : _position(util::Point2D()), _state(EntityState::STANDING)
         {};
 
-        explicit Entity(const util::Point2D &position, const graphics::SpriteSheet &sprites)
-            : _position(position), _state(EntityState::STANDING)
+        explicit Entity(const util::Point2D &position, const std::shared_ptr<graphics::SpriteSheet> &spriteSheet)
+            : _position(position), _state(EntityState::STANDING), graphics::Renderable(spriteSheet)
         {};
 
         virtual void move(const util::Point2D &modifier) = 0;

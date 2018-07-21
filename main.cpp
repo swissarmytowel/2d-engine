@@ -5,12 +5,34 @@
 #include "include/SpriteSheet.hpp"
 #include "include/AssetsManager.hpp"
 #include "include/Timer.hpp"
+#include "include/World.hpp"
+#include "include/WorldLayer.hpp"
+
+void test();
 
 int main(int argc, char *argv[])
 {
     auto error = util::initializeSdlSystems(SDL_INIT_EVERYTHING, IMG_INIT_PNG | IMG_INIT_JPG);
     if (error < 0) return EXIT_FAILURE;
 
+    // test();
+    world::WorldLayer<unsigned short> layer(5, 3);
+    layer.generateRandomLayer(0, 3);
+    for(auto &&i : layer.getLayer())
+    {
+        for (auto &&ii : i)
+        {
+            std::cout << ii << " ";
+        }
+        std::cout << std::endl;
+    }
+    util::quitSdlSystems();
+
+    return EXIT_SUCCESS;
+}
+
+void test()
+{
     const Uint32 WINDOW_FLAGS = SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE;
     const Uint32 RENDERER_FLAGS = SDL_RENDERER_PRESENTVSYNC | SDL_RENDERER_ACCELERATED;
 
@@ -33,7 +55,7 @@ int main(int argc, char *argv[])
     std::map<std::string, std::pair<std::size_t, std::size_t>> tmp = {{"world.png", {SPRITE_SIZE, SPRITE_SIZE}}};
     graphics::AssetsManager manager(tmp, renderer);
     SDL_Event event{};
-    long i = 0;
+    int i = 0;
 
     auto realSpriteSizeInPixels =
         manager.getAsset("world.png")->getSpriteSheetSize() * manager.getAsset("world.png")->getSpriteWidth();
@@ -65,7 +87,4 @@ int main(int argc, char *argv[])
         }
     }
 
-    util::quitSdlSystems();
-
-    return EXIT_SUCCESS;
 }

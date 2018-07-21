@@ -91,10 +91,10 @@
 		<Unit filename="D:/Software Engeniering/boring_runner/include/Game.hpp">
 			<Option target="boring_runner"/>
 		</Unit>
-		<Unit filename="D:/Software Engeniering/boring_runner/include/IRenderable.hpp">
+		<Unit filename="D:/Software Engeniering/boring_runner/include/Point2D.hpp">
 			<Option target="boring_runner"/>
 		</Unit>
-		<Unit filename="D:/Software Engeniering/boring_runner/include/Point2D.hpp">
+		<Unit filename="D:/Software Engeniering/boring_runner/include/Renderable.hpp">
 			<Option target="boring_runner"/>
 		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/include/SpriteSheet.hpp">
@@ -104,6 +104,9 @@
 			<Option target="boring_runner"/>
 		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/include/World.hpp">
+			<Option target="boring_runner"/>
+		</Unit>
+		<Unit filename="D:/Software Engeniering/boring_runner/include/WorldLayer.hpp">
 			<Option target="boring_runner"/>
 		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/include/utilities.hpp">

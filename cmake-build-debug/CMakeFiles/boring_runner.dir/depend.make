@@ -48,8 +48,11 @@ CMakeFiles/boring_runner.dir/main.cpp.obj: ../include/SDL2/begin_code.h
 CMakeFiles/boring_runner.dir/main.cpp.obj: ../include/SDL2/close_code.h
 CMakeFiles/boring_runner.dir/main.cpp.obj: ../include/AssetsManager.hpp
 CMakeFiles/boring_runner.dir/main.cpp.obj: ../include/Point2D.hpp
+CMakeFiles/boring_runner.dir/main.cpp.obj: ../include/Renderable.hpp
 CMakeFiles/boring_runner.dir/main.cpp.obj: ../include/SpriteSheet.hpp
 CMakeFiles/boring_runner.dir/main.cpp.obj: ../include/Timer.hpp
+CMakeFiles/boring_runner.dir/main.cpp.obj: ../include/World.hpp
+CMakeFiles/boring_runner.dir/main.cpp.obj: ../include/WorldLayer.hpp
 CMakeFiles/boring_runner.dir/main.cpp.obj: ../include/utilities.hpp
 CMakeFiles/boring_runner.dir/main.cpp.obj: ../main.cpp
 
@@ -107,6 +110,7 @@ CMakeFiles/boring_runner.dir/src/Game.cpp.obj: ../include/AssetsManager.hpp
 CMakeFiles/boring_runner.dir/src/Game.cpp.obj: ../include/Entity.hpp
 CMakeFiles/boring_runner.dir/src/Game.cpp.obj: ../include/Game.hpp
 CMakeFiles/boring_runner.dir/src/Game.cpp.obj: ../include/Point2D.hpp
+CMakeFiles/boring_runner.dir/src/Game.cpp.obj: ../include/Renderable.hpp
 CMakeFiles/boring_runner.dir/src/Game.cpp.obj: ../include/SDL2/SDL.h
 CMakeFiles/boring_runner.dir/src/Game.cpp.obj: ../include/SDL2/SDL_assert.h
 CMakeFiles/boring_runner.dir/src/Game.cpp.obj: ../include/SDL2/SDL_atomic.h
@@ -257,7 +261,7 @@ CMakeFiles/boring_runner.dir/src/Timer.cpp.obj: ../include/Timer.hpp
 CMakeFiles/boring_runner.dir/src/Timer.cpp.obj: ../include/utilities.hpp
 CMakeFiles/boring_runner.dir/src/Timer.cpp.obj: ../src/Timer.cpp
 
-CMakeFiles/boring_runner.dir/src/World.cpp.obj: ../include/AssetsManager.hpp
+CMakeFiles/boring_runner.dir/src/World.cpp.obj: ../include/Renderable.hpp
 CMakeFiles/boring_runner.dir/src/World.cpp.obj: ../include/SDL2/SDL.h
 CMakeFiles/boring_runner.dir/src/World.cpp.obj: ../include/SDL2/SDL_assert.h
 CMakeFiles/boring_runner.dir/src/World.cpp.obj: ../include/SDL2/SDL_atomic.h

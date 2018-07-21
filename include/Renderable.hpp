@@ -3,17 +3,22 @@
 #include "utilities.hpp"
 #include "SpriteSheet.hpp"
 
-class Renderable
+namespace graphics
 {
-public:
-    Renderable() = default;
-    Renderable(const Renderable &) = default;
-    Renderable &operator=(const Renderable &) = default;
+    class Renderable
+    {
+    public:
+        Renderable() = default;
+        Renderable(const Renderable &) = default;
+        Renderable &operator=(const Renderable &) = default;
+        Renderable(const std::shared_ptr<graphics::SpriteSheet> &spriteSheet)
+            : _spriteSheet(spriteSheet)
+        {}
+        virtual void render(util::uRenderer renderer) = 0;
 
-    virtual void render() = 0;
+        virtual ~Renderable() = default;
 
-    ~Renderable() = default;
-
-private:
-    std::shared_ptr<graphics::SpriteSheet> _spriteSheet;
-};
+    protected:
+        std::shared_ptr<graphics::SpriteSheet> _spriteSheet;
+    };
+}

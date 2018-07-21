@@ -49,8 +49,11 @@ CMakeFiles/boring_runner.dir/main.cpp.obj
  ../include/SDL2/close_code.h
  D:/Software Engeniering/boring_runner/include/AssetsManager.hpp
  D:/Software Engeniering/boring_runner/include/Point2D.hpp
+ D:/Software Engeniering/boring_runner/include/Renderable.hpp
  D:/Software Engeniering/boring_runner/include/SpriteSheet.hpp
  D:/Software Engeniering/boring_runner/include/Timer.hpp
+ D:/Software Engeniering/boring_runner/include/World.hpp
+ D:/Software Engeniering/boring_runner/include/WorldLayer.hpp
  D:/Software Engeniering/boring_runner/include/utilities.hpp
  D:/Software Engeniering/boring_runner/main.cpp
 CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.obj
@@ -108,6 +111,7 @@ CMakeFiles/boring_runner.dir/src/Game.cpp.obj
  ../include/Entity.hpp
  ../include/Game.hpp
  ../include/Point2D.hpp
+ ../include/Renderable.hpp
  ../include/SDL2/SDL.h
  ../include/SDL2/SDL_assert.h
  ../include/SDL2/SDL_atomic.h
@@ -258,7 +262,7 @@ CMakeFiles/boring_runner.dir/src/Timer.cpp.obj
  D:/Software Engeniering/boring_runner/include/utilities.hpp
  D:/Software Engeniering/boring_runner/src/Timer.cpp
 CMakeFiles/boring_runner.dir/src/World.cpp.obj
- ../include/AssetsManager.hpp
+ ../include/Renderable.hpp
  ../include/SDL2/SDL.h
  ../include/SDL2/SDL_assert.h
  ../include/SDL2/SDL_atomic.h
