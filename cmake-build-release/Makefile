@@ -176,32 +176,32 @@ src/AssetsManager.cpp.s:
 	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/AssetsManager.cpp.s
 .PHONY : src/AssetsManager.cpp.s
 
-src/GameState.obj: src/GameState.cpp.obj
+src/Game.obj: src/Game.cpp.obj
 
-.PHONY : src/GameState.obj
+.PHONY : src/Game.obj
 
 # target to build an object file
-src/GameState.cpp.obj:
-	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/GameState.cpp.obj
-.PHONY : src/GameState.cpp.obj
+src/Game.cpp.obj:
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/Game.cpp.obj
+.PHONY : src/Game.cpp.obj
 
-src/GameState.i: src/GameState.cpp.i
+src/Game.i: src/Game.cpp.i
 
-.PHONY : src/GameState.i
+.PHONY : src/Game.i
 
 # target to preprocess a source file
-src/GameState.cpp.i:
-	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/GameState.cpp.i
-.PHONY : src/GameState.cpp.i
+src/Game.cpp.i:
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/Game.cpp.i
+.PHONY : src/Game.cpp.i
 
-src/GameState.s: src/GameState.cpp.s
+src/Game.s: src/Game.cpp.s
 
-.PHONY : src/GameState.s
+.PHONY : src/Game.s
 
 # target to generate assembly for a file
-src/GameState.cpp.s:
-	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/GameState.cpp.s
-.PHONY : src/GameState.cpp.s
+src/Game.cpp.s:
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/Game.cpp.s
+.PHONY : src/Game.cpp.s
 
 src/Point2D.obj: src/Point2D.cpp.obj
 
@@ -257,6 +257,33 @@ src/SpriteSheet.cpp.s:
 	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/SpriteSheet.cpp.s
 .PHONY : src/SpriteSheet.cpp.s
 
+src/Timer.obj: src/Timer.cpp.obj
+
+.PHONY : src/Timer.obj
+
+# target to build an object file
+src/Timer.cpp.obj:
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/Timer.cpp.obj
+.PHONY : src/Timer.cpp.obj
+
+src/Timer.i: src/Timer.cpp.i
+
+.PHONY : src/Timer.i
+
+# target to preprocess a source file
+src/Timer.cpp.i:
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/Timer.cpp.i
+.PHONY : src/Timer.cpp.i
+
+src/Timer.s: src/Timer.cpp.s
+
+.PHONY : src/Timer.s
+
+# target to generate assembly for a file
+src/Timer.cpp.s:
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/Timer.cpp.s
+.PHONY : src/Timer.cpp.s
+
 src/utilities.obj: src/utilities.cpp.obj
 
 .PHONY : src/utilities.obj
@@ -299,15 +326,18 @@ help:
 	@echo ... src/AssetsManager.obj
 	@echo ... src/AssetsManager.i
 	@echo ... src/AssetsManager.s
-	@echo ... src/GameState.obj
-	@echo ... src/GameState.i
-	@echo ... src/GameState.s
+	@echo ... src/Game.obj
+	@echo ... src/Game.i
+	@echo ... src/Game.s
 	@echo ... src/Point2D.obj
 	@echo ... src/Point2D.i
 	@echo ... src/Point2D.s
 	@echo ... src/SpriteSheet.obj
 	@echo ... src/SpriteSheet.i
 	@echo ... src/SpriteSheet.s
+	@echo ... src/Timer.obj
+	@echo ... src/Timer.i
+	@echo ... src/Timer.s
 	@echo ... src/utilities.obj
 	@echo ... src/utilities.i
 	@echo ... src/utilities.s

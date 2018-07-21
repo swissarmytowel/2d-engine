@@ -4,6 +4,8 @@
 #include <string>
 
 #include "utilities.hpp"
+#include "Point2D.hpp"
+#include "AssetsManager.hpp"
 #include "Entity.hpp"
 
 namespace game
@@ -18,17 +20,24 @@ namespace game
     class Game
     {
     public:
-        explicit Game();
+        Game();
         Game(const Game &) = delete;
-        Game(Game &&) = default;
         Game &operator=(const Game &) = delete;
-        Game &operator=(Game &&) = default;
 
         void update();
         void render();
 
+        static Uint32 WINDOW_FLAGS;
+        static Uint32 RENDERER_FLAGS;
+
     private:
         bool _isFinished;
         GameStateType _stateType;
+
+        graphics::AssetsManager _assetsManager;
+        std::vector<actor::sEntity> _entities;
+
+        util::uWindow _window;
+        util::uRenderer _renderer;
     };
 }

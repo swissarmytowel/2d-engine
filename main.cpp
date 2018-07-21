@@ -1,8 +1,10 @@
 #include <iostream>
+
 #include "include/utilities.hpp"
 #include "include/Point2D.hpp"
 #include "include/SpriteSheet.hpp"
 #include "include/AssetsManager.hpp"
+#include "include/Timer.hpp"
 
 int main(int argc, char *argv[])
 {
@@ -11,6 +13,8 @@ int main(int argc, char *argv[])
 
     const Uint32 WINDOW_FLAGS = SDL_WINDOW_SHOWN;
     const Uint32 RENDERER_FLAGS = SDL_RENDERER_PRESENTVSYNC | SDL_RENDERER_ACCELERATED;
+
+    const double FRAME_RATE = 20.0;
 
     util::uWindow window(SDL_CreateWindow("WINDOW",
                                           SDL_WINDOWPOS_UNDEFINED,
@@ -27,25 +31,32 @@ int main(int argc, char *argv[])
 
     while (event.type != SDL_QUIT)
     {
-        SDL_RenderClear(renderer.get());
-        SDL_SetRenderDrawColor(renderer.get(), 255, 255, 255, 255);
+        util::Timer::instance().tick();
+        if (util::Timer::instance().getDeltaTime() >= 1.0/FRAME_RATE)
+        {
+            util::Timer::instance().reset();
 
-        auto realSpriteSizeInPixels =
-            manager.getAsset("world.png").getSpriteSheetSize() * manager.getAsset("world.png").getSpriteWidth();
+            SDL_RenderClear(renderer.get());
+            SDL_SetRenderDrawColor(renderer.get(), 255, 255, 255, 255);
 
-        auto currentXPositionBackground = -i;
-        auto currentXPositionBufferedBackground = realSpriteSizeInPixels - i;
+            auto realSpriteSizeInPixels =
+                manager.getAsset("world.png").getSpriteSheetSize() * manager.getAsset("world.png").getSpriteWidth();
 
-        SDL_Rect current = {currentXPositionBackground, 0, realSpriteSizeInPixels, realSpriteSizeInPixels};
-        SDL_Rect next = {currentXPositionBufferedBackground, 0, realSpriteSizeInPixels, realSpriteSizeInPixels};
+            auto currentXPositionBackground = -i;
+            auto currentXPositionBufferedBackground = realSpriteSizeInPixels - i;
 
-        SDL_RenderCopy(renderer.get(), manager.getAsset("world.png").getSpriteSheet().get(), nullptr, &current);
-        SDL_RenderCopy(renderer.get(), manager.getAsset("world.png").getSpriteSheet().get(), nullptr, &next);
+            util::rectangle current = {currentXPositionBackground, 0, realSpriteSizeInPixels, realSpriteSizeInPixels};
+            util::rectangle
+                next = {currentXPositionBufferedBackground, 0, realSpriteSizeInPixels, realSpriteSizeInPixels};
 
-        SDL_RenderPresent(renderer.get());
-        SDL_PollEvent(&event);
+            SDL_RenderCopy(renderer.get(), manager.getAsset("world.png").getSpriteSheet().get(), nullptr, &current);
+            SDL_RenderCopy(renderer.get(), manager.getAsset("world.png").getSpriteSheet().get(), nullptr, &next);
 
-        i += i < realSpriteSizeInPixels - 6 ? 5 : -i;
+            SDL_RenderPresent(renderer.get());
+            SDL_PollEvent(&event);
+
+            i += i < realSpriteSizeInPixels - 6 ? 5 : -i;
+        }
     }
 
     util::quitSdlSystems();

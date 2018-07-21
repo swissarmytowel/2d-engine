@@ -11,9 +11,9 @@ namespace graphics
     class AssetsManager
     {
     public:
-        AssetsManager() = delete;
+        AssetsManager() = default;
         AssetsManager(const AssetsManager &) = delete;
-        AssetsManager &operator=(const AssetsManager &) = delete;
+        AssetsManager &operator=(AssetsManager &&) = default;
 
         AssetsManager(const std::map<std::string, std::pair<std::size_t, std::size_t>> &filenamesAndTileSizes,
                       util::uRenderer &renderer);

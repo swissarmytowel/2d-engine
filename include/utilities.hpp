@@ -53,8 +53,10 @@ namespace util
     using sWindow = SharedPtr<SDL_Window, SdlDeleter>;
     using sRenderer = SharedPtr<SDL_Renderer, SdlDeleter>;
 
+    using rectangle = SDL_Rect;
+
     // Initializer and deinitializer functions for SDL
-    int initializeSdlSystems(Uint32 sdlFlags, Uint32 imageFlags);;
+    int initializeSdlSystems(Uint32 sdlFlags, Uint32 imageFlags);
 
     void quitSdlSystems();
 

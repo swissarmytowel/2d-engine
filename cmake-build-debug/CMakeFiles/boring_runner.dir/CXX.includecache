@@ -6,6 +6,46 @@
 
 #IncludeRegexTransform: 
 
+../include/AssetsManager.hpp
+map
+-
+string
+-
+utilities.hpp
+../include/utilities.hpp
+SpriteSheet.hpp
+../include/SpriteSheet.hpp
+
+../include/Entity.hpp
+vector
+-
+utilities.hpp
+../include/utilities.hpp
+Point2D.hpp
+../include/Point2D.hpp
+SpriteSheet.hpp
+../include/SpriteSheet.hpp
+
+../include/Game.hpp
+vector
+-
+memory
+-
+string
+-
+utilities.hpp
+../include/utilities.hpp
+Point2D.hpp
+../include/Point2D.hpp
+AssetsManager.hpp
+../include/AssetsManager.hpp
+Entity.hpp
+../include/Entity.hpp
+
+../include/Point2D.hpp
+cmath
+-
+
 ../include/SDL2/SDL.h
 SDL_main.h
 ../include/SDL2/SDL_main.h
@@ -596,6 +636,24 @@ close_code.h
 
 ../include/SDL2/close_code.h
 
+../include/SpriteSheet.hpp
+vector
+-
+algorithm
+-
+utilities.hpp
+../include/utilities.hpp
+
+../include/utilities.hpp
+iostream
+-
+memory
+-
+SDL2/SDL.h
+-
+SDL2/SDL_image.h
+-
+
 D:/Software Engeniering/boring_runner/include/AssetsManager.hpp
 map
 -
@@ -606,28 +664,6 @@ D:/Software Engeniering/boring_runner/include/utilities.hpp
 SpriteSheet.hpp
 D:/Software Engeniering/boring_runner/include/SpriteSheet.hpp
 
-D:/Software Engeniering/boring_runner/include/Entity.hpp
-vector
--
-utilities.hpp
-D:/Software Engeniering/boring_runner/include/utilities.hpp
-Point2D.hpp
-D:/Software Engeniering/boring_runner/include/Point2D.hpp
-SpriteSheet.hpp
-D:/Software Engeniering/boring_runner/include/SpriteSheet.hpp
-
-D:/Software Engeniering/boring_runner/include/GameState.hpp
-vector
--
-memory
--
-string
--
-utilities.hpp
-D:/Software Engeniering/boring_runner/include/utilities.hpp
-Entity.hpp
-D:/Software Engeniering/boring_runner/include/Entity.hpp
-
 D:/Software Engeniering/boring_runner/include/Point2D.hpp
 cmath
 -
@@ -636,6 +672,12 @@ D:/Software Engeniering/boring_runner/include/SpriteSheet.hpp
 vector
 -
 algorithm
+-
+utilities.hpp
+D:/Software Engeniering/boring_runner/include/utilities.hpp
+
+D:/Software Engeniering/boring_runner/include/Timer.hpp
+chrono
 -
 utilities.hpp
 D:/Software Engeniering/boring_runner/include/utilities.hpp
@@ -661,14 +703,16 @@ include/SpriteSheet.hpp
 D:/Software Engeniering/boring_runner/include/SpriteSheet.hpp
 include/AssetsManager.hpp
 D:/Software Engeniering/boring_runner/include/AssetsManager.hpp
+include/Timer.hpp
+D:/Software Engeniering/boring_runner/include/Timer.hpp
 
 D:/Software Engeniering/boring_runner/src/AssetsManager.cpp
 ../include/AssetsManager.hpp
 D:/Software Engeniering/boring_runner/include/AssetsManager.hpp
 
-D:/Software Engeniering/boring_runner/src/GameState.cpp
-../include/GameState.hpp
-D:/Software Engeniering/boring_runner/include/GameState.hpp
+D:/Software Engeniering/boring_runner/src/Game.cpp
+Game.hpp
+D:/Software Engeniering/boring_runner/src/Game.hpp
 
 D:/Software Engeniering/boring_runner/src/Point2D.cpp
 ../include/Point2D.hpp
@@ -677,6 +721,10 @@ D:/Software Engeniering/boring_runner/include/Point2D.hpp
 D:/Software Engeniering/boring_runner/src/SpriteSheet.cpp
 ../include/SpriteSheet.hpp
 D:/Software Engeniering/boring_runner/include/SpriteSheet.hpp
+
+D:/Software Engeniering/boring_runner/src/Timer.cpp
+../include/Timer.hpp
+D:/Software Engeniering/boring_runner/include/Timer.hpp
 
 D:/Software Engeniering/boring_runner/src/utilities.cpp
 ../include/utilities.hpp

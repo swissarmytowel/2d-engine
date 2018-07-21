@@ -44,4 +44,7 @@ namespace actor
         util::Point2D _position;
         EntityState _state;
     };
+
+    using sEntity = std::shared_ptr<Entity>;
+    using uEntity = std::unique_ptr<Entity>;
 }

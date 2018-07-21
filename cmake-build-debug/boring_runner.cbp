@@ -88,13 +88,16 @@
 		<Unit filename="D:/Software Engeniering/boring_runner/include/Entity.hpp">
 			<Option target="boring_runner"/>
 		</Unit>
-		<Unit filename="D:/Software Engeniering/boring_runner/include/GameState.hpp">
+		<Unit filename="D:/Software Engeniering/boring_runner/include/Game.hpp">
 			<Option target="boring_runner"/>
 		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/include/Point2D.hpp">
 			<Option target="boring_runner"/>
 		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/include/SpriteSheet.hpp">
+			<Option target="boring_runner"/>
+		</Unit>
+		<Unit filename="D:/Software Engeniering/boring_runner/include/Timer.hpp">
 			<Option target="boring_runner"/>
 		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/include/utilities.hpp">
@@ -106,13 +109,16 @@
 		<Unit filename="D:/Software Engeniering/boring_runner/src/AssetsManager.cpp">
 			<Option target="boring_runner"/>
 		</Unit>
-		<Unit filename="D:/Software Engeniering/boring_runner/src/GameState.cpp">
+		<Unit filename="D:/Software Engeniering/boring_runner/src/Game.cpp">
 			<Option target="boring_runner"/>
 		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/src/Point2D.cpp">
 			<Option target="boring_runner"/>
 		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/src/SpriteSheet.cpp">
+			<Option target="boring_runner"/>
+		</Unit>
+		<Unit filename="D:/Software Engeniering/boring_runner/src/Timer.cpp">
 			<Option target="boring_runner"/>
 		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/src/utilities.cpp">
