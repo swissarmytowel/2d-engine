@@ -15,17 +15,8 @@ int main(int argc, char *argv[])
     auto error = util::initializeSdlSystems(SDL_INIT_EVERYTHING, IMG_INIT_PNG | IMG_INIT_JPG);
     if (error < 0) return EXIT_FAILURE;
 
-    // test();
-    world::WorldLayer<unsigned short> layer(5, 3);
-    layer.generateRandomLayer(0, 3);
-    for(auto &&i : layer.getLayer())
-    {
-        for (auto &&ii : i)
-        {
-            std::cout << ii << " ";
-        }
-        std::cout << std::endl;
-    }
+    test();
+
     util::quitSdlSystems();
 
     return EXIT_SUCCESS;

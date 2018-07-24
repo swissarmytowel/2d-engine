@@ -14,6 +14,7 @@ namespace graphics
         Renderable(const std::shared_ptr<graphics::SpriteSheet> &spriteSheet)
             : _spriteSheet(spriteSheet)
         {}
+
         virtual void render(util::uRenderer renderer) = 0;
 
         virtual ~Renderable() = default;
