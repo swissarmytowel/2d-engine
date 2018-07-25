@@ -112,6 +112,9 @@
 		<Unit filename="D:/Software Engeniering/boring_runner/include/WorldLayer.hpp">
 			<Option target="boring_runner"/>
 		</Unit>
+		<Unit filename="D:/Software Engeniering/boring_runner/include/debug_utilities.hpp">
+			<Option target="boring_runner"/>
+		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/include/tb_engine.hpp">
 			<Option target="boring_runner"/>
 		</Unit>
@@ -137,6 +140,9 @@
 			<Option target="boring_runner"/>
 		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/src/Timer.cpp">
+			<Option target="boring_runner"/>
+		</Unit>
+		<Unit filename="D:/Software Engeniering/boring_runner/src/debug_utilities.cpp">
 			<Option target="boring_runner"/>
 		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/src/utilities.cpp">

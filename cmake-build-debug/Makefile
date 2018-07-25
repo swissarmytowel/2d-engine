@@ -311,6 +311,33 @@ src/Timer.cpp.s:
 	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/Timer.cpp.s
 .PHONY : src/Timer.cpp.s
 
+src/debug_utilities.obj: src/debug_utilities.cpp.obj
+
+.PHONY : src/debug_utilities.obj
+
+# target to build an object file
+src/debug_utilities.cpp.obj:
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/debug_utilities.cpp.obj
+.PHONY : src/debug_utilities.cpp.obj
+
+src/debug_utilities.i: src/debug_utilities.cpp.i
+
+.PHONY : src/debug_utilities.i
+
+# target to preprocess a source file
+src/debug_utilities.cpp.i:
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/debug_utilities.cpp.i
+.PHONY : src/debug_utilities.cpp.i
+
+src/debug_utilities.s: src/debug_utilities.cpp.s
+
+.PHONY : src/debug_utilities.s
+
+# target to generate assembly for a file
+src/debug_utilities.cpp.s:
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/debug_utilities.cpp.s
+.PHONY : src/debug_utilities.cpp.s
+
 src/utilities.obj: src/utilities.cpp.obj
 
 .PHONY : src/utilities.obj
@@ -368,6 +395,9 @@ help:
 	@echo ... src/Timer.obj
 	@echo ... src/Timer.i
 	@echo ... src/Timer.s
+	@echo ... src/debug_utilities.obj
+	@echo ... src/debug_utilities.i
+	@echo ... src/debug_utilities.s
 	@echo ... src/utilities.obj
 	@echo ... src/utilities.i
 	@echo ... src/utilities.s

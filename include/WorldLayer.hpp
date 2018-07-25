@@ -7,12 +7,6 @@
 
 namespace world
 {
-    enum class LayerType
-    {
-        GROUND = 0,
-        OTHER = 1
-    };
-
     template<typename T>
     class WorldLayer
     {
@@ -22,13 +16,13 @@ namespace world
                    std::size_t layerWidth,
                    std::size_t layerHeight,
                    double speed,
-                   LayerType type = LayerType::GROUND)
-            : _width(layerWidth), _height(layerHeight), _speed(speed), _type(type)
+                   short id)
+            : _width(layerWidth), _height(layerHeight), _speed(speed), _id(id), _worldHeight(worldHeight)
         {
-            _layer.resize(worldHeight);
+            _layer.resize(_worldHeight);
             for (auto &&item : _layer)
             {
-                item.resize(_width);
+                item.resize(_width, static_cast<T>(-1));
             }
         }
 
@@ -40,17 +34,23 @@ namespace world
         void generateRandomLayer(std::size_t lowerId, std::size_t upperId)
         {
             std::srand(static_cast<unsigned int>(std::time(nullptr)));
-            for (auto i = 0; i < _layer.size(); ++i)
+            std::random_device rd; // obtain a random number from hardware
+            std::mt19937 eng(rd()); // seed the generator
+            std::uniform_int_distribution<> distr(lowerId, upperId); // define the range
+            for (auto i = currentHeightLevel; i < _worldHeight; ++i)
             {
                 for (auto &&ii : _layer[i])
                 {
-                    if (i > _layer.size() - _height - 1)
-                        ii = static_cast<T>(std::rand() % upperId + lowerId);
-                    else
-                        ii = static_cast<T>(-1);
+                    if (i >= _worldHeight - (_height + currentHeightLevel))
+                    {
+                        ii = distr(eng);
+                    }
                 }
             }
+            currentHeightLevel += _height;
         }
+
+        static std::size_t currentHeightLevel;
 
     private:
         std::vector<std::vector<T>> _layer;
@@ -58,6 +58,9 @@ namespace world
         std::size_t _height;
         std::size_t _worldHeight;
         double _speed;
-        LayerType _type;
+        short _id;
     };
+
+    template<typename T>
+    std::size_t world::WorldLayer<T>::currentHeightLevel = 0;
 }

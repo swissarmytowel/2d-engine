@@ -685,6 +685,8 @@ Timer.hpp
 ../include/Timer.hpp
 WorldLayer.hpp
 ../include/WorldLayer.hpp
+debug_utilities.hpp
+-
 
 ../include/WorldLayer.hpp
 vector
@@ -695,6 +697,12 @@ ctime
 -
 utilities.hpp
 ../include/utilities.hpp
+
+../include/debug_utilities.hpp
+vector
+-
+utilities.hpp
+-
 
 ../include/tb_engine.hpp
 utilities.hpp
@@ -787,9 +795,9 @@ SDL2/SDL_image.h
 -
 
 D:/Software Engeniering/boring_runner/main.cpp
-iostream
--
 tb_engine.hpp
+-
+debug_utilities.hpp
 -
 
 D:/Software Engeniering/boring_runner/src/AssetsManager.cpp
@@ -815,6 +823,10 @@ D:/Software Engeniering/boring_runner/include/SpriteSheet.hpp
 D:/Software Engeniering/boring_runner/src/Timer.cpp
 ../include/Timer.hpp
 D:/Software Engeniering/boring_runner/include/Timer.hpp
+
+D:/Software Engeniering/boring_runner/src/debug_utilities.cpp
+debug_utilities.hpp
+-
 
 D:/Software Engeniering/boring_runner/src/utilities.cpp
 ../include/utilities.hpp

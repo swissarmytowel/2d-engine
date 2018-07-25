@@ -64,11 +64,3 @@ const std::size_t graphics::SpriteSheet::getSpriteSheetSize() const
     return _spriteSheetSize;
 }
 
-util::uTexture &
-graphics::SpriteSheet::formTile(util::uRenderer renderer, const std::vector<std::size_t> &positions, std::size_t width, std::size_t height)
-{
-    util::uTexture tmp(SDL_CreateTexture(renderer.get(), SDL_PIXELFORMAT_RGBA4444, SDL_TEXTUREACCESS_TARGET, width, height));
-    SDL_SetRenderTarget(renderer.get(), tmp.get());
-    
-    return tmp;
-}

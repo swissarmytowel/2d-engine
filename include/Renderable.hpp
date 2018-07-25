@@ -15,7 +15,7 @@ namespace graphics
             : _spriteSheet(spriteSheet)
         {}
 
-        virtual void render(util::uRenderer renderer) = 0;
+        virtual void render(util::uRenderer &renderer) = 0;
 
         virtual ~Renderable() = default;
 
