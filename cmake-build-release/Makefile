@@ -284,33 +284,6 @@ src/Timer.cpp.s:
 	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/Timer.cpp.s
 .PHONY : src/Timer.cpp.s
 
-src/World.obj: src/World.cpp.obj
-
-.PHONY : src/World.obj
-
-# target to build an object file
-src/World.cpp.obj:
-	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/World.cpp.obj
-.PHONY : src/World.cpp.obj
-
-src/World.i: src/World.cpp.i
-
-.PHONY : src/World.i
-
-# target to preprocess a source file
-src/World.cpp.i:
-	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/World.cpp.i
-.PHONY : src/World.cpp.i
-
-src/World.s: src/World.cpp.s
-
-.PHONY : src/World.s
-
-# target to generate assembly for a file
-src/World.cpp.s:
-	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/World.cpp.s
-.PHONY : src/World.cpp.s
-
 src/utilities.obj: src/utilities.cpp.obj
 
 .PHONY : src/utilities.obj
@@ -365,9 +338,6 @@ help:
 	@echo ... src/Timer.obj
 	@echo ... src/Timer.i
 	@echo ... src/Timer.s
-	@echo ... src/World.obj
-	@echo ... src/World.i
-	@echo ... src/World.s
 	@echo ... src/utilities.obj
 	@echo ... src/utilities.i
 	@echo ... src/utilities.s

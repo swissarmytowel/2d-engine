@@ -130,9 +130,6 @@
 		<Unit filename="D:/Software Engeniering/boring_runner/src/Timer.cpp">
 			<Option target="boring_runner"/>
 		</Unit>
-		<Unit filename="D:/Software Engeniering/boring_runner/src/World.cpp">
-			<Option target="boring_runner"/>
-		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/src/utilities.cpp">
 			<Option target="boring_runner"/>
 		</Unit>

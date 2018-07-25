@@ -650,22 +650,6 @@ algorithm
 utilities.hpp
 ../include/utilities.hpp
 
-../include/Timer.hpp
-chrono
--
-utilities.hpp
-../include/utilities.hpp
-
-../include/World.hpp
-vector
--
-utilities.hpp
-../include/utilities.hpp
-Renderable.hpp
-../include/Renderable.hpp
-Timer.hpp
-../include/Timer.hpp
-
 ../include/utilities.hpp
 iostream
 -
@@ -719,6 +703,8 @@ Renderable.hpp
 D:/Software Engeniering/boring_runner/include/Renderable.hpp
 Timer.hpp
 D:/Software Engeniering/boring_runner/include/Timer.hpp
+WorldLayer.hpp
+D:/Software Engeniering/boring_runner/include/WorldLayer.hpp
 
 D:/Software Engeniering/boring_runner/include/WorldLayer.hpp
 vector
@@ -775,10 +761,6 @@ D:/Software Engeniering/boring_runner/include/SpriteSheet.hpp
 D:/Software Engeniering/boring_runner/src/Timer.cpp
 ../include/Timer.hpp
 D:/Software Engeniering/boring_runner/include/Timer.hpp
-
-D:/Software Engeniering/boring_runner/src/World.cpp
-World.hpp
-D:/Software Engeniering/boring_runner/src/World.hpp
 
 D:/Software Engeniering/boring_runner/src/utilities.cpp
 ../include/utilities.hpp

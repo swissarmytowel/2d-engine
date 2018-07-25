@@ -6,12 +6,19 @@
 
 namespace world
 {
+    enum class LayerType
+    {
+        GROUND = 0,
+        OTHER = 1
+    };
+
     template<typename T>
     class WorldLayer
     {
     public:
-        WorldLayer(std::size_t width, std::size_t height)
-            : _width(width), _height(height)
+        WorldLayer() = default;
+        WorldLayer(std::size_t width, std::size_t height, double speed, LayerType type=LayerType::GROUND)
+            : _width(width), _height(height), _speed(speed), _type(type)
         {
             _layer.resize(_height);
             for(auto &&item : _layer)
@@ -41,5 +48,7 @@ namespace world
         std::vector<std::vector<T>> _layer;
         std::size_t _width;
         std::size_t _height;
+        double _speed;
+        LayerType _type;
     };
 }
