@@ -230,6 +230,33 @@ src/Point2D.cpp.s:
 	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/Point2D.cpp.s
 .PHONY : src/Point2D.cpp.s
 
+src/Properties.obj: src/Properties.cpp.obj
+
+.PHONY : src/Properties.obj
+
+# target to build an object file
+src/Properties.cpp.obj:
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/Properties.cpp.obj
+.PHONY : src/Properties.cpp.obj
+
+src/Properties.i: src/Properties.cpp.i
+
+.PHONY : src/Properties.i
+
+# target to preprocess a source file
+src/Properties.cpp.i:
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/Properties.cpp.i
+.PHONY : src/Properties.cpp.i
+
+src/Properties.s: src/Properties.cpp.s
+
+.PHONY : src/Properties.s
+
+# target to generate assembly for a file
+src/Properties.cpp.s:
+	$(MAKE) -f CMakeFiles\boring_runner.dir\build.make CMakeFiles/boring_runner.dir/src/Properties.cpp.s
+.PHONY : src/Properties.cpp.s
+
 src/SpriteSheet.obj: src/SpriteSheet.cpp.obj
 
 .PHONY : src/SpriteSheet.obj
@@ -332,6 +359,9 @@ help:
 	@echo ... src/Point2D.obj
 	@echo ... src/Point2D.i
 	@echo ... src/Point2D.s
+	@echo ... src/Properties.obj
+	@echo ... src/Properties.i
+	@echo ... src/Properties.s
 	@echo ... src/SpriteSheet.obj
 	@echo ... src/SpriteSheet.i
 	@echo ... src/SpriteSheet.s

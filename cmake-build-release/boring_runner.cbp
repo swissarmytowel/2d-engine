@@ -94,6 +94,9 @@
 		<Unit filename="D:/Software Engeniering/boring_runner/include/Point2D.hpp">
 			<Option target="boring_runner"/>
 		</Unit>
+		<Unit filename="D:/Software Engeniering/boring_runner/include/Properties.hpp">
+			<Option target="boring_runner"/>
+		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/include/Renderable.hpp">
 			<Option target="boring_runner"/>
 		</Unit>
@@ -109,6 +112,9 @@
 		<Unit filename="D:/Software Engeniering/boring_runner/include/WorldLayer.hpp">
 			<Option target="boring_runner"/>
 		</Unit>
+		<Unit filename="D:/Software Engeniering/boring_runner/include/tb_engine.hpp">
+			<Option target="boring_runner"/>
+		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/include/utilities.hpp">
 			<Option target="boring_runner"/>
 		</Unit>
@@ -122,6 +128,9 @@
 			<Option target="boring_runner"/>
 		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/src/Point2D.cpp">
+			<Option target="boring_runner"/>
+		</Unit>
+		<Unit filename="D:/Software Engeniering/boring_runner/src/Properties.cpp">
 			<Option target="boring_runner"/>
 		</Unit>
 		<Unit filename="D:/Software Engeniering/boring_runner/src/SpriteSheet.cpp">

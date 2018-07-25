@@ -1,12 +1,6 @@
 #include <iostream>
+#include <tb_engine.hpp>
 
-#include "include/utilities.hpp"
-#include "include/Point2D.hpp"
-#include "include/SpriteSheet.hpp"
-#include "include/AssetsManager.hpp"
-#include "include/Timer.hpp"
-#include "include/World.hpp"
-#include "include/WorldLayer.hpp"
 
 void test();
 
@@ -15,8 +9,16 @@ int main(int argc, char *argv[])
     auto error = util::initializeSdlSystems(SDL_INIT_EVERYTHING, IMG_INIT_PNG | IMG_INIT_JPG);
     if (error < 0) return EXIT_FAILURE;
 
-    test();
-
+    world::WorldLayer<short> layer(10, 4, 3, 1.0);
+    layer.generateRandomLayer(0, 3);
+    for(auto &&i : layer.getLayer())
+    {
+        for (auto &&j : i)
+        {
+            std::cout << j << " ";
+        }
+        std::cout << std::endl;
+    }
     util::quitSdlSystems();
 
     return EXIT_SUCCESS;

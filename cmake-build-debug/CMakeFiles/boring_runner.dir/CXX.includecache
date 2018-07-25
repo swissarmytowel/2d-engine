@@ -46,6 +46,24 @@ Entity.hpp
 cmath
 -
 
+../include/Properties.hpp
+map
+-
+string
+-
+fstream
+-
+algorithm
+-
+iterator
+-
+strstream
+-
+sstream
+-
+utilities.hpp
+../include/utilities.hpp
+
 ../include/Renderable.hpp
 utilities.hpp
 ../include/utilities.hpp
@@ -650,6 +668,58 @@ algorithm
 utilities.hpp
 ../include/utilities.hpp
 
+../include/Timer.hpp
+chrono
+-
+utilities.hpp
+../include/utilities.hpp
+
+../include/World.hpp
+vector
+-
+utilities.hpp
+../include/utilities.hpp
+Renderable.hpp
+../include/Renderable.hpp
+Timer.hpp
+../include/Timer.hpp
+WorldLayer.hpp
+../include/WorldLayer.hpp
+
+../include/WorldLayer.hpp
+vector
+-
+random
+-
+ctime
+-
+utilities.hpp
+../include/utilities.hpp
+
+../include/tb_engine.hpp
+utilities.hpp
+-
+Entity.hpp
+-
+Game.hpp
+-
+Point2D.hpp
+-
+Properties.hpp
+-
+Renderable.hpp
+-
+SpriteSheet.hpp
+-
+Timer.hpp
+-
+WorldLayer.hpp
+-
+World.hpp
+-
+AssetsManager.hpp
+-
+
 ../include/utilities.hpp
 iostream
 -
@@ -674,11 +744,23 @@ D:/Software Engeniering/boring_runner/include/Point2D.hpp
 cmath
 -
 
-D:/Software Engeniering/boring_runner/include/Renderable.hpp
+D:/Software Engeniering/boring_runner/include/Properties.hpp
+map
+-
+string
+-
+fstream
+-
+algorithm
+-
+iterator
+-
+strstream
+-
+sstream
+-
 utilities.hpp
 D:/Software Engeniering/boring_runner/include/utilities.hpp
-SpriteSheet.hpp
-D:/Software Engeniering/boring_runner/include/SpriteSheet.hpp
 
 D:/Software Engeniering/boring_runner/include/SpriteSheet.hpp
 vector
@@ -690,26 +772,6 @@ D:/Software Engeniering/boring_runner/include/utilities.hpp
 
 D:/Software Engeniering/boring_runner/include/Timer.hpp
 chrono
--
-utilities.hpp
-D:/Software Engeniering/boring_runner/include/utilities.hpp
-
-D:/Software Engeniering/boring_runner/include/World.hpp
-vector
--
-utilities.hpp
-D:/Software Engeniering/boring_runner/include/utilities.hpp
-Renderable.hpp
-D:/Software Engeniering/boring_runner/include/Renderable.hpp
-Timer.hpp
-D:/Software Engeniering/boring_runner/include/Timer.hpp
-WorldLayer.hpp
-D:/Software Engeniering/boring_runner/include/WorldLayer.hpp
-
-D:/Software Engeniering/boring_runner/include/WorldLayer.hpp
-vector
--
-random
 -
 utilities.hpp
 D:/Software Engeniering/boring_runner/include/utilities.hpp
@@ -727,20 +789,8 @@ SDL2/SDL_image.h
 D:/Software Engeniering/boring_runner/main.cpp
 iostream
 -
-include/utilities.hpp
-D:/Software Engeniering/boring_runner/include/utilities.hpp
-include/Point2D.hpp
-D:/Software Engeniering/boring_runner/include/Point2D.hpp
-include/SpriteSheet.hpp
-D:/Software Engeniering/boring_runner/include/SpriteSheet.hpp
-include/AssetsManager.hpp
-D:/Software Engeniering/boring_runner/include/AssetsManager.hpp
-include/Timer.hpp
-D:/Software Engeniering/boring_runner/include/Timer.hpp
-include/World.hpp
-D:/Software Engeniering/boring_runner/include/World.hpp
-include/WorldLayer.hpp
-D:/Software Engeniering/boring_runner/include/WorldLayer.hpp
+tb_engine.hpp
+-
 
 D:/Software Engeniering/boring_runner/src/AssetsManager.cpp
 ../include/AssetsManager.hpp
@@ -753,6 +803,10 @@ D:/Software Engeniering/boring_runner/src/Game.hpp
 D:/Software Engeniering/boring_runner/src/Point2D.cpp
 ../include/Point2D.hpp
 D:/Software Engeniering/boring_runner/include/Point2D.hpp
+
+D:/Software Engeniering/boring_runner/src/Properties.cpp
+../include/Properties.hpp
+D:/Software Engeniering/boring_runner/include/Properties.hpp
 
 D:/Software Engeniering/boring_runner/src/SpriteSheet.cpp
 ../include/SpriteSheet.hpp
